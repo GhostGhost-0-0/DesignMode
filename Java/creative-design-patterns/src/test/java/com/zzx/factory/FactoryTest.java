@@ -22,4 +22,11 @@ public class FactoryTest {
         System.out.println(apple.toString());
         System.out.println(orange.toString());
     }
+
+    @Test
+    public void simpleFactoryTest() {
+        Apple apple = (Apple) FruitFactory.getFruit("苹果");
+        Orange orange = (Orange) FruitFactory.getFruit("橘子");
+        System.out.println(apple.toString());
+    }
 }
