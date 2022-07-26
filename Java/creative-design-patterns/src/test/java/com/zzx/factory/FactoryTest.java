@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
  * @BelongPackage: com.zzx.factory
  * @Author: 那个小楠瓜
  * @CreateTime: 2022-07-26 17:12
- * @Description: TODO
+ * @Description: 工厂方法模式和抽象工厂模式的测试
  * @Version: 1.0
  */
 
