@@ -12,10 +12,11 @@ import com.zzx.factory.entity.Orange;
  * @Description: 水果工厂类
  * @Version: 1.0
  */
-public class FruitFactory {
+public abstract class FruitFactory<T extends Fruit>{
 
     /**
-     * 这里就直接来一个静态方法根据指定类型进行创建
+     * 这里就直接来一个静态方法根据指定类型进行创建，但是不符合开闭原则
+     * 想要增加水果种类只能通过修改工厂类，扩展性不好
      * @param type 水果类型
      * @return 对应的水果对象
      */
@@ -29,4 +30,11 @@ public class FruitFactory {
                 return null;
         }
     }
+
+    /**
+     * 改进后的工厂方法，通过对应的水果工厂生成水果，不直接修改工厂类
+     * 增加水果种类只需添加对应的水果工厂即可，符合开闭原则
+     * @return 对应的水果
+     */
+    public abstract T getFruitByFactory();
 }
