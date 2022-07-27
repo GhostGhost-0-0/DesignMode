@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
  * @BelongPackage: com.zzx.singleton
  * @Author: 那个小楠瓜
  * @CreateTime: 2022-07-27 15:54
- * @Description: TODO
+ * @Description: 单例测试
  * @Version: 1.0
  */
 public class SingletonTest {
