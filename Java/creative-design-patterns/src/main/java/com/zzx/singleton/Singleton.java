@@ -40,4 +40,16 @@ public class Singleton {
         }
         return LAZY_STYLE_INSTANCE;
     }
+
+    private static class Holder {
+        private final static Singleton INSTANCE = new Singleton();
+    }
+
+    /**
+     * 不使用锁的懒汉式单例
+     * @return Singleton
+     */
+    public static Singleton getInstance() {
+        return Holder.INSTANCE;
+    }
 }

@@ -22,11 +22,20 @@ public class SingletonTest {
     }
 
     /**
-     * 懒汉式单例测试
+     * 加锁的懒汉式单例测试
      */
     @Test
-    public void LazyStyleSingletonTest() {
+    public void haveLockLazyStyleSingletonTest() {
         Singleton singleton = Singleton.getLazyStyleInstance();
+        System.out.println(singleton);
+    }
+
+    /**
+     * 不加锁的懒汉式单例测试
+     */
+    @Test
+    public void noLockLazyStyleSingletonTest() {
+        Singleton singleton = Singleton.getInstance();
         System.out.println(singleton);
     }
 }
