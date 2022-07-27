@@ -1,6 +1,7 @@
-package com.zzx.factory;
+package com.zzx.factory.method;
 
-import com.zzx.factory.entity.Orange;
+import com.zzx.factory.method.FruitFactory;
+import com.zzx.factory.method.entity.Orange;
 
 /**
  * @BelongProject: Java
@@ -10,7 +11,7 @@ import com.zzx.factory.entity.Orange;
  * @Description: 橘子工厂类，负责生成橘子
  * @Version: 1.0
  */
-public class OrangeFactory extends FruitFactory<Orange>{
+public class OrangeFactory extends FruitFactory<Orange> {
 
     @Override
     public Orange getFruitByFactory() {

@@ -1,16 +1,16 @@
-package com.zzx.factory.entity;
+package com.zzx.factory.method.entity;
 
 /**
  * @BelongProject: Java
  * @BelongPackage: com.zzx.factory.entity
  * @Author: 那个小楠瓜
  * @CreateTime: 2022-07-26 17:10
- * @Description: 苹果类
+ * @Description: 橘子类
  * @Version: 1.0
  */
-public class Apple extends Fruit{
+public class Orange extends Fruit{
 
-    public Apple(String name) {
-        super("苹果");
+    public Orange(String name) {
+        super("橘子");
     }
 }

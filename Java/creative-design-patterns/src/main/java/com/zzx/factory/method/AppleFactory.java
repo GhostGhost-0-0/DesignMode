@@ -1,6 +1,6 @@
-package com.zzx.factory;
+package com.zzx.factory.method;
 
-import com.zzx.factory.entity.Apple;
+import com.zzx.factory.method.entity.Apple;
 
 /**
  * @BelongProject: Java
@@ -10,7 +10,7 @@ import com.zzx.factory.entity.Apple;
  * @Description: 苹果工厂类，负责生成苹果
  * @Version: 1.0
  */
-public class AppleFactory extends FruitFactory<Apple>{
+public class AppleFactory extends FruitFactory<Apple> {
 
     @Override
     public Apple getFruitByFactory() {

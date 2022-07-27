@@ -1,7 +1,10 @@
 package com.zzx.factory;
 
-import com.zzx.factory.entity.Apple;
-import com.zzx.factory.entity.Orange;
+import com.zzx.factory.method.AppleFactory;
+import com.zzx.factory.method.FruitFactory;
+import com.zzx.factory.method.OrangeFactory;
+import com.zzx.factory.method.entity.Apple;
+import com.zzx.factory.method.entity.Orange;
 import org.junit.jupiter.api.Test;
 
 /**

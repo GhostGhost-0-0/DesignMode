@@ -1,8 +1,8 @@
-package com.zzx.factory;
+package com.zzx.factory.method;
 
-import com.zzx.factory.entity.Apple;
-import com.zzx.factory.entity.Fruit;
-import com.zzx.factory.entity.Orange;
+import com.zzx.factory.method.entity.Apple;
+import com.zzx.factory.method.entity.Fruit;
+import com.zzx.factory.method.entity.Orange;
 
 /**
  * @BelongProject: Java

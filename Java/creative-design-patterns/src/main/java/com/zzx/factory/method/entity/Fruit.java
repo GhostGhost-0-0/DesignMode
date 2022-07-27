@@ -1,4 +1,4 @@
-package com.zzx.factory.entity;
+package com.zzx.factory.method.entity;
 
 /**
  * @BelongProject: Java
