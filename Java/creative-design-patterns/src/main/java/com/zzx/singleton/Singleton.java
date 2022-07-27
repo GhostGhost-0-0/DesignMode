@@ -25,9 +25,10 @@ public class Singleton {
 
     /**
      * 获取懒汉式单例
+     * synchronized 避免线程安全问题
      * @return Singleton
      */
-    public static Singleton getLazyStyleInstance() {
+    public static synchronized Singleton getLazyStyleInstance() {
         if (LAZY_STYLE_INSTANCE == null) {
             LAZY_STYLE_INSTANCE = new Singleton();
         }
