@@ -11,7 +11,8 @@ package com.zzx.adapter;
 public class Main {
     public static void main(String[] args) {
         TestAdapter testAdapter = new TestAdapter();
-        test(testAdapter);
+        ObjectAdapter objectAdapter = new ObjectAdapter(new TestSupplier());
+        test(objectAdapter);
     }
 
     public static void test(Target target) {
